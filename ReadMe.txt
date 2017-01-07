@@ -18,11 +18,3 @@ Pri sigurnom pristupu neispravan indeks će baciti IndexOutOfRangeException.
 NizoviKaoArgumenti
 ------------------
 Niz kao argument metode: prenosi se referenca pa možemo mijenjati članove niza.
-
-
-NizoviKaoPovratnaVrijednost
----------------------------
-Niz kao povratna vrijednost: vraća se referenca. Ako želimo onemogućiti promjene,
-moramo vratiti presliku.
-
-
