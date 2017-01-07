@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{691D9113-89BF-4A1D-AD3D-600F99750ED8}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InicijalizacijaNiza", "InicijalizacijaNiza\InicijalizacijaNiza.csproj", "{A00FBAF8-CC7E-44C0-B46D-19FAA20672EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvjeraIndeksa", "ProvjeraIndeksa\ProvjeraIndeksa.csproj", "{3E7D6136-0396-473A-A6AB-35EE425875F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NizoviKaoArgumenti", "NizoviKaoArgumenti\NizoviKaoArgumenti.csproj", "{62AAFDEC-3C17-4E58-A5C1-967D1C1A13B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00", "00", "{6F6302E3-958C-4456-82DA-74622FE2BE25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testovi", "Testovi\Testovi.csproj", "{FD2C2B87-A19B-477D-A744-742F645BDD58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{37B54AAC-0591-43DB-901E-96FED249329B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{5A708DBC-A78B-4B51-88BA-2037FDF2E01A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00FBAF8-CC7E-44C0-B46D-19FAA20672EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00FBAF8-CC7E-44C0-B46D-19FAA20672EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00FBAF8-CC7E-44C0-B46D-19FAA20672EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00FBAF8-CC7E-44C0-B46D-19FAA20672EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7D6136-0396-473A-A6AB-35EE425875F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7D6136-0396-473A-A6AB-35EE425875F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7D6136-0396-473A-A6AB-35EE425875F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7D6136-0396-473A-A6AB-35EE425875F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62AAFDEC-3C17-4E58-A5C1-967D1C1A13B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62AAFDEC-3C17-4E58-A5C1-967D1C1A13B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62AAFDEC-3C17-4E58-A5C1-967D1C1A13B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62AAFDEC-3C17-4E58-A5C1-967D1C1A13B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2C2B87-A19B-477D-A744-742F645BDD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2C2B87-A19B-477D-A744-742F645BDD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2C2B87-A19B-477D-A744-742F645BDD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2C2B87-A19B-477D-A744-742F645BDD58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A00FBAF8-CC7E-44C0-B46D-19FAA20672EF} = {6F6302E3-958C-4456-82DA-74622FE2BE25}
+		{3E7D6136-0396-473A-A6AB-35EE425875F4} = {37B54AAC-0591-43DB-901E-96FED249329B}
+		{62AAFDEC-3C17-4E58-A5C1-967D1C1A13B7} = {5A708DBC-A78B-4B51-88BA-2037FDF2E01A}
+	EndGlobalSection
+EndGlobal
