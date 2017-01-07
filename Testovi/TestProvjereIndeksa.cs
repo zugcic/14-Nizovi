@@ -16,21 +16,21 @@ namespace Vsite.CSharp.Testovi
         }
 
         [TestMethod]
-        public void ZbrojiSigurnoVraćaZbrojSvihČlanovaZaNiz5x5()
+        public void ProvjeraIndeksa_ZbrojiSigurnoVraćaZbrojSvihČlanovaZaNiz5x5()
         {
             int[,] niz = GenerirajNiz(5, 5);
             Assert.AreEqual(825, ProvjeraIndeksa.ZbrojiSigurno(niz));
         }
 
         [TestMethod]
-        public void ZbrojiSigurnoVraćaZbrojSvihČlanovaZaNiz10x6()
+        public void ProvjeraIndeksa_ZbrojiSigurnoVraćaZbrojSvihČlanovaZaNiz10x6()
         {
             int[,] niz = GenerirajNiz(3, 2);
             Assert.AreEqual(129, ProvjeraIndeksa.ZbrojiSigurno(niz));
         }
 
         [TestMethod]
-        public void ZbrojiSigurnoBacaIznimkuZaPrevelikiPrviIndeks()
+        public void ProvjeraIndeksa_ZbrojiSigurnoBacaIznimkuZaPrevelikiPrviIndeks()
         {
             try
             {
@@ -45,7 +45,7 @@ namespace Vsite.CSharp.Testovi
         }
 
         [TestMethod]
-        public void ZbrojiSigurnoBacaIznimkuZaPrevelikiDrugiIndeks()
+        public void ProvjeraIndeksa_ZbrojiSigurnoBacaIznimkuZaPrevelikiDrugiIndeks()
         {
             try
             {
@@ -60,7 +60,7 @@ namespace Vsite.CSharp.Testovi
         }
 
         [TestMethod]
-        public void ZbrojiNesigurnoVraćaZbrojSvihČlanovaZaNiz5x5()
+        public void ProvjeraIndeksa_ZbrojiNesigurnoVraćaZbrojSvihČlanovaZaNiz5x5()
         {
             int[,] niz = GenerirajNiz(5, 5);
             Assert.AreEqual(825, ProvjeraIndeksa.ZbrojiNesigurno(niz));

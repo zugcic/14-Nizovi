@@ -8,7 +8,7 @@ namespace Vsite.CSharp.Testovi
     public class TestInicijalizacijeNiza : ConsoleTest
     {
         [TestMethod]
-        public void NizIntovaSNeinicijaliziranimČlanovimaSadržiNule()
+        public void InicijalizacijaNiza_NizIntovaSNeinicijaliziranimČlanovimaSadržiNule()
         {
             InicijalizacijaNiza.InicijalizacijaNizaVrijednosnogTipa();
             Assert.IsTrue(cw.Count >= 5);
@@ -18,7 +18,7 @@ namespace Vsite.CSharp.Testovi
         }
 
         [TestMethod]
-        public void NizIntovaSInicijaliziranimČlanovimaSadržiČlanoveRazličiteOdNule()
+        public void InicijalizacijaNiza_NizIntovaSInicijaliziranimČlanovimaSadržiČlanoveRazličiteOdNule()
         {
             InicijalizacijaNiza.InicijalizacijaNizaVrijednosnogTipa();
             Assert.AreEqual(10, cw.Count);
@@ -32,7 +32,7 @@ namespace Vsite.CSharp.Testovi
         }
 
         [TestMethod]
-        public void NizKontrolaSNeinicijaliziranimČlanovimaSadržiNullReference()
+        public void InicijalizacijaNiza_NizKontrolaSNeinicijaliziranimČlanovimaSadržiNullReference()
         {
             InicijalizacijaNiza.InicijalizacijaNizaReferentnogTipa();
             Assert.IsTrue(cw.Count >= 5);
@@ -42,7 +42,7 @@ namespace Vsite.CSharp.Testovi
         }
 
         [TestMethod]
-        public void NizKontrolaSInicijaliziranimČlanovimaSadržiReferenceNaObjekte()
+        public void InicijalizacijaNiza_NizKontrolaSInicijaliziranimČlanovimaSadržiReferenceNaObjekte()
         {
             InicijalizacijaNiza.InicijalizacijaNizaReferentnogTipa();
             Assert.AreEqual(10, cw.Count);
