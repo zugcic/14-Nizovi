@@ -5,9 +5,10 @@ namespace Vsite.CSharp
     // niz kao argument metode
     public class NizoviKaoArgumenti
     {
-        // TODO: U metodi SamVrag() napisati naredbu kojom se jedan od članova niza mijenja u neki drugi tekst. Pokrenuti program i usporediti sadržaj nakon poziva metode.
+        // U metodi SamVrag() napisati naredbu kojom se jedan od članova niza mijenja u neki drugi tekst. Pokrenuti program i usporediti sadržaj nakon poziva metode.
         public static void SamVrag(string[] božjeZapovjedi)
         {
+			božjeZapovjedi[2]="Ne radi" ;
         }
 
         static void Main(string[] args)
